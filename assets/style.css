@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+#autoScroll{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#autoScroll::-webkit-scrollbar{
+    width: 0.5em; /* Adjust as needed */
+    display: none; /* Hide the scrollbar */
+}
+
+.section_1, .section_2, .section_3{
+    height: 100vh;
+}
+
+.section_1{
+    background-color: rgb(56, 112, 54);
+}
+.hero-welcome{
+    font-family: Gill Sans, sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: rgb(233, 194, 65);
+}
+
+.section_2{
+    background-color: rgb(158, 38, 38);
+}
+
+.section_3{
+    background-color: rgb(54, 65, 112);
+}
